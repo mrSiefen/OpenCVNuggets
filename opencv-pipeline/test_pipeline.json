@@ -1,30 +1,30 @@
 [
-  {
-    "filter": "GaussianBlurFilter",
-    "enabled": true,
-    "params": {
-      "size": 15
+    {
+        "filter": "GaussianBlurFilter",
+        "enabled": false,
+        "params": {
+        "size": 15
+        }
+    },
+    {
+        "filter": "HSVFilter",
+        "enabled": false,
+        "params": {
+        "h-lo": 0,
+        "h-hi": 180,
+        "s-lo": 0,
+        "s-hi": 255,
+        "v-lo": 0,
+        "v-hi": 255
+        }
+    },
+    {
+        "filter": "ContoursFilter",
+        "enabled": false,
+        "params": {
+        "lower": 0,
+        "upper": 99999
+        }
     }
-  },
-  {
-    "filter": "HSVFilter",
-    "enabled": true,
-    "params": {
-      "h-lo": 10,
-      "h-hi": 22,
-      "s-lo": 181,
-      "s-hi": 255,
-      "v-lo": 178,
-      "v-hi": 255
-    }
-  },
-  {
-    "filter": "ContoursFilter",
-    "enabled": true,
-    "params": {
-      "lower": 38900,
-      "upper": 68900
-    }
-  }
 ]
 
